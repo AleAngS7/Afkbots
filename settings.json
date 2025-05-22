@@ -1,13 +1,13 @@
 {
   "bot-account": {
     "username": "bot",
-    "password": "your_password",
-    "type": "microsoft"
+    "password": "",
+    "type": "mojang"
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
+    "ip": "191.96.231.11",
+    "port": 31465,
     "version": "1.19.3"
   },
 
@@ -25,10 +25,10 @@
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false,
-      "jump": false,
-      "rotate": false,
+      "enabled": true,
+      "sneak": true,
+      "jump": true,
+      "rotate": true,
 
       "hit": {
         "enabled": false,
@@ -37,13 +37,13 @@
       },
 
       "circle-walk": {
-        "enabled": false,
+        "enabled": true,
         "radius": 2
       }
     },
 
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
       "repeat-delay": 60,
 
@@ -56,7 +56,7 @@
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 5000
   }
 }
